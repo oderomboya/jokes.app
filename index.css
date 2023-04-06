@@ -1,0 +1,30 @@
+body {
+    background: url("https://r4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-9b468c3dc3116f4905f43bc9cddc0cf0.jpg");
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+while the background image is loading */
+    background-color: #464646;
+
+    /* backdrop-filter: blur(12px); */
+
+    font-family: poppins;
+
+    height: 100vh;
+    width: 100%;
+    color: azure;
+  }
+ 
